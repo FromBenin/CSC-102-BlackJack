@@ -51,11 +51,11 @@ function playBlackJack() {
     } else if (dealerSum > 21) {
         result = 'Dealer busts! Player wins!'; // Dealer busts
     } else if (playerSum > dealerSum) {
-        result = 'Player wins!'; // Player has higher hand
+        result = 'Player wins!'; // Player has higher point
     } else if (dealerSum > playerSum) {
-        result = 'Dealer wins!'; // Dealer has higher hand
+        result = 'Dealer wins!'; // Dealer has higher point
     } else {
-        result = 'It\'s a tie!'; // Hands are equal
+        result = 'It\'s a tie!'; // Points are equal
     }
 
     // Display the result of the game
